@@ -1,0 +1,58 @@
+
+<link rel="shortcut icon" href="../static/REVIIVESHOPBAG.ico" type="image/x-icon">
+
+
+<!DOCTYPE html>
+<html>
+    
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+        <title>Reviive Shop Channel</title>
+        <style>
+            body {
+                background-color: #ffffff;
+                background-image: url("static/back/bg_connect.gif");
+  background-repeat: no-repeat;
+            }
+            .Reviivetempwelcomepagebuttons {
+     color:rgb(0, 0, 0);
+     border-color:rgb(83, 206, 247);
+     background-color:white;
+     border-radius:15px;
+     font-family: "Wii NTLG PGothic JPN Regular";
+
+     border-style: solid;
+    }
+    .Reviivetempwelcomepagebuttons:hover {
+     color:rgb(0, 0, 0);
+     border-color:rgb(39, 201, 255);
+     background-color:white;
+     border-radius:15px;
+     font-family: "Wii NTLG PGothic JPN Regular";
+
+     font-weight: bold;
+     border-style: solid;
+    }
+
+        </style>
+                <script>
+            var shop = new wiiShop();
+            var sound = new wiiSound();
+            var ec = new ECommerceInterface();
+        </script>
+    </head>
+    <body>
+        <h3>Welcome to Reviive Shop, start shopping by clicking the button whenever your ready!</h3>
+        <button onclick="location.href = 'splash2.html';" class="Reviivetempwelcomepagebuttons"    onclick="CLICK()" onclick="window.location ='splash2-2.html'; shop.setWallpaper(0);">Start Shopping!</button>
+
+<script>
+            var unused = shop.connecting;
+            shop.setWallpaper(1);
+            sound.playBGM();
+      </script>
+    </body>
+
+</html>

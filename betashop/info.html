@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang=en>
+<title>Info about the Reviive Shop Channel (Chrisplayz edition)</title>
+<h1>Info about the Reviive Shop Channel (Chrisplayz edition)</h1>
+<h>---------------------------------------------------------</h>
+<p>An unknown error has occured and we could not find the info data. Please use the back button to go back to the main screen. </p>
+
+
+
+<h>---------------------------------------------------------</h>
+<div id="arrowL">
+    <a href='home.html' onclick='wiiSelectSound();' onmouseout='MM_swapImgRestore()' onmouseover='MM_swapImage(\'arrowLImg\','\','../static/images/banner/arrowL_page_b.gif\',1);wiiFocusSound();' style>
+    <input type=image src="static/images/banner/arrowL_page_a.gif" name="ImageArrowL" width="52" height="52" border="0" id="arrowLImg" /></a>
+   </div>
+
+
+
+
+
+	<!--THIS IS THE START OF THE POINT SYSTEM HTML. DO NOT MODIFY.-->
+
+	<div id="Wiipoint">
+    <div align="center" class="buttonTextBlackM">Points</div>
+	<link rel="icon" type="image/png" href="#"/>
+  </div>
+
+	<div id='balanceInfo'>
+		<script type="text/JavaScript">MM_preloadImages('static/images/banner/Addpoints_everywhere.gif');</script>
+    <img src="static/images/spacer.gif" name="PointSpacer" width="130" height="55" border="0"
+     id='PointSpacer' style="position:absolute; top:376px; left:239px; z-index:20;"/>
+    <div onclick="snd.playSE(cSE_Decide)"  id="wordpoints">
+      <div align="center" class="buttonTextBlackM2"></div>
+    </div>
+    <div  onclick="snd.playSE(cSE_Decide)" id="point"  class="wiiPoint"><span  id="points">0</span></div>
+    </div>
+  </div>
+</div>
+
+</img>
+</span></div>
+</span></div>
+
+<div id='balanceInfo'>
+<div id="points">
+        
+    </div>
+    <div id="wordpoints">
+        
+    </div>
+</div>
+
+<script type="text/JavaScript">
+      let add = 0;
+       function handleClick() {
+          add+=100;
+          document.getElementById('points').textContent = '' + add;
+    }
+         document.addEventListener('click', handleClick);
+      </script>
+	</div>
+
+
+<!--THIS IS THE END OF THE POINT SYSTEM HTML. DO NOT MODIFY.-->
+
+<!--THIS IS THE START OF THE POINT SYSTEM CSS. DO NOT MODIFY.-->
+
+<style>
+.points{
+	/* style for current points */
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 22px;
+	color: #34BEED;
+	font-weight: normal;
+}
+#point {
+	/* location of current points */
+	text-align:center;
+	position:absolute;
+	left:241px;
+	top:378px;
+	width:130px;
+	height:22px;
+	z-index:97;
+}
+.buttontextblackm {
+		font-family: "Wii NTLG PGothic JPN Regular";
+		font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 18px;
+	color: #323232;
+	font-weight: normal;
+	}
+
+</style>
+
+<!--THIS IS THE END OF THE POINT SYSTEM CSS. DO NOT MODIFY.-->
+
+
+<!--THIS IS THE END OF THE POINT SYSTEM.-->
+
+
